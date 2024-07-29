@@ -1,0 +1,39 @@
+{
+   "sqltools.connections": [
+      {
+         "previewLimit": 50,
+         "server": "localhost",
+         "port": 5432,
+         "driver": "PostgreSQL",
+         "name": "Postgres",
+         "database": "postgres",
+         "username": "postgres"
+      },
+      {
+         "mssqlOptions": {
+            "appName": "SQLTools",
+            "useUTC": true,
+            "encrypt": true
+         },
+         "previewLimit": 50,
+         "server": "localhost",
+         "port": 1433,
+         "driver": "MSSQL",
+         "name": "mssql",
+         "group": "mssql",
+         "username": "SA",
+         "password": "486215Loko*",
+         "database": "PentahoDB"
+      },
+      {
+         "previewLimit": 50,
+         "server": "localhost",
+         "port": 5432,
+         "askForPassword": true,
+         "driver": "PostgreSQL",
+         "name": "astro_postgres",
+         "database": "postgres",
+         "username": "postgres"
+      }
+   ]
+}
